@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>FFMpeg Time Calculator</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+	<link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+	<link rel="stylesheet" href="css/calc.css" >
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src = "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" ></script> 
+	<script src = "js/ffmpegcalc.js" ></script> 
+
+
+</head>
+<body class="text-center">
+<div class="container">
+<h1 class="jumbotron">FFMpeg Calculator</h1>
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+ <div id="Howdyado"></div>
+
+
+<div class="row">
+<div class="col-6 text-center">
+
+<h3 class="source">What is the source duration in seconds?</h3>
+<input type="text" id="totallength">
+<br><br>
+<div id="q1Feedback"></div>
+
+</div>
+
+<div class="col-6 text-center">
+
+<h3  class="target">What is the desired output length?</h3>
+<select id="targetlength"></select>
+<br><br>
+<div id="q2Feedback"></div>
+
+</div>
+
+<div class="col-12 text-center">
+
+<span id="desc"></span>
+<span id="upordown"></span>
+
+
+
+<button class="btn btn-outline-success">Calculate</button>
+<br>
+<h2 id="calcpts" class="text-danger"></h2>
+<code id="sample"></code>
+
+</div>
+
+</div>
+</div>
+
+
+</body>
+</html>
